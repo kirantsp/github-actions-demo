@@ -1,9 +1,9 @@
 name: Deploy to Firebase Hosting on Push
 'on': push
 jobs:
-    firebase-deploy:
-    runs-on: ubuntu-latest
-    steps:
+    deploy:
+     runs-on: ubuntu-latest
+     steps:
       - uses: actions/checkout@v2
       - run: npm ci && npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
