@@ -8,7 +8,7 @@ jobs:
       - name: Install Packages
         run: npm install    
       - name: Build App
-        run: CI='' npm run build
+        run: npm run build
       - name: SonarCloud Scan
         uses: sonarsource/sonarcloud-github-action@v1.3
         env:
