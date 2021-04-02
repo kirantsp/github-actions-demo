@@ -11,8 +11,8 @@ const handleType = (e) => {
     });
   };
 const handleSubmit = () => {
-    //eval(data.firstName + data.lastName);
-    //preventDefault();
+    eval(data.firstName + data.lastName);
+    console.log("done");
   };
 return (
     <div>
