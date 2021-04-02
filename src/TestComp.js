@@ -11,8 +11,13 @@ const handleType = (e) => {
     });
   };
 const handleSubmit = () => {
-    
-    console.log("done");
+    var flag=true;
+    if (flag) {
+        console.log("if");
+    }
+    else{
+        console.log("else");
+    }
   };
 return (
     <div>
