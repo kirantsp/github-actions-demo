@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-const Eval = () => {
+const TestComp = () => {
   const [data, setData] = useState({
     firstName: '',
     lastName: '',
@@ -32,4 +32,4 @@ return (
     </div>
   );
 };
-export default Eval;
+export default TestComp;
