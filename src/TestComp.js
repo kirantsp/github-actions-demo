@@ -11,7 +11,7 @@ const handleType = (e) => {
     });
   };
 const handleSubmit = () => {
-    eval(data.firstName + data.lastName);
+    //eval(data.firstName + data.lastName);
     //preventDefault();
   };
 return (
