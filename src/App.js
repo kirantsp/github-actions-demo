@@ -1,8 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 
-var i;
+
 function App() {
+  try{
+    
+    
+  }
+  catch (e)
+  {
+
+  }
   return (
     <div className="App">
       <header className="App-header">
