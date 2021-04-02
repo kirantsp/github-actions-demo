@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
+var i;
 function App() {
   return (
     <div className="App">
@@ -9,7 +10,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-	Hello Phani Kiran!!
+	Hello Phani Kiran
         <a
           className="App-link"
           href="https://reactjs.org"
